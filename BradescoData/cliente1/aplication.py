@@ -16,7 +16,7 @@ def search_command():
         app.listClientes.insert(END, r)
 
 def insert_command():
-    core.insert(app.txtNome.get(), app.txtSobrenome.get(), app.txtEmail.get(), app.txtCPF.get()))
+    core.insert(app.txtNome.get(), app.txtSobrenome.get(), app.txtEmail.get(), app.txtCPF.get())
     view_command()
 
 def update_command():
