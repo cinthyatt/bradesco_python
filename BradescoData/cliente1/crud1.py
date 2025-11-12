@@ -42,7 +42,7 @@ class Gui(): #Graphical User Interface
     entNome.grid(row=0, column=1, padx=50, pady=50)
     entSobrenome.grid(row=1, column=1)
     entEmail.grid(row=2, column=1)
-    entCPF.grid(row=2, column=1)
+    entCPF.grid(row=3, column=1)
     listClientes.grid(row=0, column=2, rowspan=10)
     scrollClientes.grid(row=0, column=6, rowspan=10)
     btnViewAll.grid(row=4, column=0, rowspan=2)
