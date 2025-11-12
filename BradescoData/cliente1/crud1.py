@@ -9,6 +9,7 @@ class Gui(): #Graphical User Interface
 
     window = Tk()
     window.wm_title("PYSQL versão 1.0") #Nome fantasia da aplicação
+ 
 
     #Definição das variáveis que recebem os dados inseridos pelo user
     txtNome = StringVar()
@@ -69,10 +70,9 @@ class Gui(): #Graphical User Interface
             child.grid_configure(padx=x_pad, pady=y_pad, sticky='N')
                 
     def run(self):
-        Gui.window.mainloop()
+        self.window.mainloop()
 
 
-app = Gui()
-app.run()
+
 
 

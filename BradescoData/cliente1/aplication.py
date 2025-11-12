@@ -50,5 +50,3 @@ if __name__ == "__main__":
     app.btnInserir.configure(command=insert_command)
     app.btnClose.configure(command=app.window.destroy)
     app.run()
-
-
